@@ -9,14 +9,26 @@
     <h1>Chai aur Javascript</h1>
     <button id="start">Start</button>
     <button id="stop">Stop</button>
+
+    <script>
+        const start = document.querySelector("#start");
+        const stop = document.querySelector("#stop");
+        const h1 = document.getElementsByTagName('h1')[0]; // Target the first <h1>
+        let intervalId; // Declare intervalId globally
+        const str = "Chai aur Javascript";
+
+        // Start Button: Updates <h1> text every second
+        start.addEventListener('click', function () {
+            intervalId = setInterval(function () {
+                const now = new Date().toLocaleTimeString(); // Get current time
+                h1.textContent = `${str} at ${now}`; // Update <h1> text
+            }, 1000);
+        });
+
+        // Stop Button: Stops the interval
+        stop.addEventListener('click', function () {
+            clearInterval(intervalId); // Stop updates
+        });
+    </script>
 </body>
-<script>
-    const sayDate = function(str){
-        console.log(str, Date.now());
-    }
-
-    const intervalId = setInterval(sayDate, 1000, "hi")
-
-    clearInterval(intervalId)
-</script>
 </html>
