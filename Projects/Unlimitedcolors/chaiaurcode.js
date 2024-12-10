@@ -22,6 +22,7 @@ const startChangingColor = function () {
 // Function to stop changing background color
 const stopChangingColor = function () {
     clearInterval(intervalID);
+    intervalID=null;
 };
 
 // Add event listeners to buttons
