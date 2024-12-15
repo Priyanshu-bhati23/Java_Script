@@ -1,0 +1,14 @@
+{
+  "name": "java_script",
+  "version": "1.0.0",
+  "description": "This repository contains a collection of useful JavaScript utility functions, scripts, and small projects designed to simplify everyday development tasks. Whether you're a beginner learning JavaScript or an experienced developer looking to save time, this repository offers reusable and well-documented code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
