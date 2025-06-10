@@ -1,4 +1,4 @@
-# <h1 align="center">
+src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"# <h1 align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="60"/> 
   JavaScript Mastery Repo 
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="60"/>
@@ -35,9 +35,3 @@
 </p>
 
 ---
-
-## 📂 How to Use
-
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/yourusername/javascript-mastery.git
